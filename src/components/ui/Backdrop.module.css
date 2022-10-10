@@ -1,0 +1,10 @@
+.backdrop{
+    /* w-full h-full fixed z-40 top-0 left-0 bg-gray-800 */
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: black;
+    opacity: 40%;
+}
