@@ -29,8 +29,8 @@ export async function getServerSideProps() {
   const reviews = await getData("/reviews");
   return {
     props: {
-      properties: properties || [],
-      reviews: reviews || [],
+      properties: [],
+      reviews: [],
     },
   };
 }
