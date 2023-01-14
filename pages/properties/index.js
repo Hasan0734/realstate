@@ -4,6 +4,7 @@ import MainContent from "../../src/components/client/properties/MainContent";
 import { getData } from "../../__lib__/helpers/HttpService";
 
 export default function Properties({ properties }) {
+  
   return (
     <Layout>
       <div className="container-fluid mt-5 pt-5 p-0">

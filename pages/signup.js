@@ -34,6 +34,7 @@ export default function SignUp() {
         role: data.role,
       };
       postData("/user/register", newData, setDisable).then((res) => {
+        console.log(res)
         if (res?.success) {
           toast.success(`${res.message}`);
           setDisable(false);

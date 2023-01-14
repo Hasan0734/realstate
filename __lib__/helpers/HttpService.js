@@ -1,9 +1,9 @@
 import axios from "axios";
 
-export const ROOT_URL = `https://realstate-mvh39yci8-hasan0734.vercel.app/`;
-export const APP_URL = `https://realstate-mvh39yci8-hasan0734.vercel.app/`;
-// export const ROOT_URL = `http://localhost:3000/`;
-// export const APP_URL = `http://localhost:3000/`;
+// export const ROOT_URL = `https://realstate-mvh39yci8-hasan0734.vercel.app/`;
+// export const APP_URL = `https://realstate-mvh39yci8-hasan0734.vercel.app/`;
+export const ROOT_URL = `http://localhost:3000/`;
+export const APP_URL = `http://localhost:3000/`;
 // export const IMAGE_URL = `${APP_URL}storage`;
 export const API_URL = `${APP_URL}api/`;
 

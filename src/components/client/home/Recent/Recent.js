@@ -7,6 +7,7 @@ import RecentItem from "./RecentItem";
 import { settings } from "./SlickSetting";
 
 function Recent({ properties }) {
+  console.log(properties)
   return (
     <section className="container pb-5 mb-lg-4 pt-5 overflow-hidden">
       <div className="d-flex align-items-center justify-content-between pb-2">

@@ -26,10 +26,11 @@ export default function Home({ properties, reviews }) {
 
 export async function getServerSideProps() {
   const properties = await getData("/properties");
+  
   const reviews = await getData("/reviews");
   return {
     props: {
-      properties: [],
+      properties: properties|| [],
       reviews: [],
     },
   };
