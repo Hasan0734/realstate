@@ -95,6 +95,7 @@ export default function SignIn() {
                       Email address
                     </label>
                     <input
+                    defaultValue={"jahid@gmail.com"}
                       {...register("email", {
                         required: "Email requird",
                       })}
@@ -121,6 +122,7 @@ export default function SignIn() {
                     </div>
                     <div className="password-toggle">
                       <input
+                      defaultValue={"password"}
                         {...register("password", {
                           required: "Password requird",
                         })}
